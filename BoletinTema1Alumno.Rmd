@@ -118,6 +118,10 @@ commonAnimals
 e.  Usa **setdiff** para averiguar qué animales no están en ambos conjuntos. ¿Cuántos son ?. ¿Qué tipo de animales son?
 
 ```{r}
+A_no_B <- setdiff(rownames(A),rownames(B))
+A_no_B
+
+#Son 4 Animales, que son: Artic fox, Artic ground squirrel, Pata monkey y Mole rat
 ```
 
 e.  Determina las diferencia entre los animales que no aparecen en ambos conjuntos.
